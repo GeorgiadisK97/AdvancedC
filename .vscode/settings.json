@@ -1,0 +1,14 @@
+{
+    "files.associations": {
+        "*.c": "c",
+        "inet.h": "c",
+        "stdio.h": "c",
+        "complex.h": "c",
+        "stdbool.h": "c",
+        "math.h": "c",
+        "reent.h": "c",
+        "setjmp.h": "c"
+    },
+    "window.zoomLevel": 0,
+    "editor.fontSize": 14
+}

@@ -1,0 +1,2 @@
+Hello, my name is Konstantinos and I'm from Greece. I'm currently studing C programming, because I want to have a job in Embedded Systems
+Goodbye!

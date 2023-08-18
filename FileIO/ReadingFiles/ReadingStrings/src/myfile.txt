@@ -1,0 +1,2 @@
+The standard way of reading a line of text in C is to use the fgets function, which is fine if you know in advance how long a line of text could be.
+You can find all the code examples and the input file at the GitHub repo for this article.

@@ -1,0 +1,3 @@
+The toupper() function is used to convert lowercase alphabet to uppercase.
+Line replaceedIf the character passed is a lowercase alphabet then the toupper() function converts a lowercase alphabet to an uppercase alphabet.
+It is defined in the ctype.h header file.
