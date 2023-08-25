@@ -1,28 +1,11 @@
-
-// C program to demonstrate 
-// working of setjmp() and
-// longjmp()
-#include <setjmp.h>
 #include <stdio.h>
-jmp_buf buf;
-void func()
-{
-    printf("Welcome to GeeksforGeeks\n");
-  
-    // Jump to the point setup by setjmp
-    longjmp(buf, 1);
-  
-    printf("Geek2\n");
-}
-  
+#include <stdlib.h>
 int main()
 {
-    // Setup jump position using buf and return 0
-    if (setjmp(buf))
-        printf("Geek3\n");
-    else {
-        printf("Geek4\n");
-        func();
-    }
+    char *buffer = "Hello there";
+    size_t size = 32;
+
+    printf("buffer address: %p", buffer);
+    printf("Character address: %p", buffer[0]);
     return 0;
 }
