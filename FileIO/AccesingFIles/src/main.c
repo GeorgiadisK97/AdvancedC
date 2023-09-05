@@ -7,6 +7,7 @@ int create_file()
     pfile = fopen(filename, "w");
     if (pfile == NULL)
     {
+        
         perror("Failed to open");
         return -1;
     }
