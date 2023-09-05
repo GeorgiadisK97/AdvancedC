@@ -1,11 +1,12 @@
 #include <stdio.h>
-#include <stdlib.h>
+
+#define SUM(a, b) ((a) + (b))
+
+
 int main()
 {
-    char *buffer = "Hello there";
-    size_t size = 32;
-
-    printf("buffer address: %p", buffer);
-    printf("Character address: %p", buffer[0]);
+    int x = 10, y = 30, z = 0;
+    z = SUM(x, y);
+    printf("Sum: %d", z);
     return 0;
 }

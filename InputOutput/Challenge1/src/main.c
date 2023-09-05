@@ -3,6 +3,7 @@
 
 int main(int argc, char *argv[])
 {
+    fprintf(stdout, "Program last compiled at %s %s\n", __DATE__, __TIME__);
     int counter = 0;
     if (argc == 1)
     {
@@ -31,7 +32,7 @@ int main(int argc, char *argv[])
         }
         else
         {
-            printf("Failed");
+            fprintf(stderr,"Failed to open file");
             exit(EXIT_FAILURE);
         }
         printf("Number of characters: %d\n", counter);
