@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <stdlib.h>
 #define SIZE 1024
 int main()
 {
@@ -12,7 +13,7 @@ int main()
         perror("Failed to open file");
         return 1;
     }
-    while(fgets(buffer, SIZE, pfile) != NULL)
+    while (fgets(buffer, SIZE, pfile) != NULL)
     {
         printf("%s", buffer);
     }

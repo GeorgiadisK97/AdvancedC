@@ -8,7 +8,8 @@
         "math.h": "c",
         "reent.h": "c",
         "setjmp.h": "c",
-        "stdlib.h": "c"
+        "stdlib.h": "c",
+        "assert.h": "c"
     },
     "window.zoomLevel": 0,
     "editor.fontSize": 14
